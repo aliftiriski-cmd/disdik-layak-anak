@@ -59,7 +59,7 @@ export default function App() {
           color:'#a5b4fc', fontSize:'0.72rem', letterSpacing:'0.15em',
           textTransform:'uppercase', marginBottom:'24px',
           fontFamily:"'DM Sans', sans-serif",
-        }}>Platform Survei & Kuesioner</div>
+        }}>Pertanyaan & Pengisian</div>
 
         <h1 style={{
           fontFamily:"'Playfair Display', serif",
@@ -67,14 +67,14 @@ export default function App() {
           color:'white', fontWeight:'700',
           lineHeight:1.15, marginBottom:'14px',
           letterSpacing:'-0.02em',
-        }}>Layak Anak<br/><span style={{ color:'#818cf8' }}>Pertanyaan</span></h1>
+        }}>Kabupaten<br/><span style={{ color:'#818cf8' }}>Layak Anak</span></h1>
 
         <p style={{
           color:'#6b7280', fontSize:'1rem',
           fontFamily:"'DM Sans', sans-serif",
           marginBottom:'48px', maxWidth:'360px', margin:'0 auto 48px',
           lineHeight:1.7,
-        }}>Platform pengumpulan jawaban yang mudah untuk admin dan user</p>
+        }}>Untuk Kluster Dinas Pendidikan & Kebudayaan Kab. Pamekasan</p>
 
         <div style={{ display:'flex', gap:'16px', justifyContent:'center', flexWrap:'wrap' }}>
           <button className="home-btn" onClick={() => setPage('user-select')} style={{
