@@ -59,7 +59,7 @@ export default function App() {
           color:'#a5b4fc', fontSize:'0.72rem', letterSpacing:'0.15em',
           textTransform:'uppercase', marginBottom:'24px',
           fontFamily:"'DM Sans', sans-serif",
-        }}>Pertanyaan & Pengisian</div>
+        }}>Pertanyaan dan Pengisian</div>
 
         <h1 style={{
           fontFamily:"'Playfair Display', serif",
@@ -74,7 +74,7 @@ export default function App() {
           fontFamily:"'DM Sans', sans-serif",
           marginBottom:'48px', maxWidth:'360px', margin:'0 auto 48px',
           lineHeight:1.7,
-        }}>Untuk Kluster Dinas Pendidikan & Kebudayaan Kab. Pamekasan</p>
+        }}>Untuk Kluster Dinas Pendidikan dan Kebudayaan Kab. Pamekasan</p>
 
         <div style={{ display:'flex', gap:'16px', justifyContent:'center', flexWrap:'wrap' }}>
           <button className="home-btn" onClick={() => setPage('user-select')} style={{
